@@ -47,8 +47,7 @@ electron-hello-world/
 ```
 
 6. Apa fungsi `package.json`?
-
-**Jawaban:**
+**Jawaban:** setau ku package json itu kayak ktp suatu project, jadi fungsinya itu sebagai file konfigurasi project yang berisi informasi metadata, script, serta mengatur dependensi atau daftar library yang dibutuhkan untuk aplikasi. sama hal nya kayak pubspec.yaml di flutter
 
 ---
 
