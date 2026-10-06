@@ -9,35 +9,27 @@
 ## 1. Apa itu Electron?
 
 1. Apa itu Electron.js menurut pemahaman lu sendiri?
-
-**Jawaban:**
-
-electron adalah framework j
-
+**Jawaban:** electron adalah framework javascript open source yang bertujuan untuk membuat aplikasi desktop berbasis website dengan html, css, dan js
 
 ---
 
 2. Electron menggunakan dua teknologi utama untuk menjalankan aplikasi desktop. Apa saja?
-
-**Jawaban:**
+**Jawaban:** chromium dan nodejs
 
 ---
 
 3. Apa fungsi Chromium di Electron?
-
-**Jawaban:**
+**Jawaban:** chromium berfungsi untuk mengatur antarmuka aplikasi yang akan dibangun
 
 ---
 
 4. Apa fungsi Node.js di Electron?
-
-**Jawaban:**
+**Jawaban:** sedangkan nodejs berfungsi untuk menangani  proses backend seperti mengatur logika aplikasi, memberi akses ke os, pembuatan window, basis data, dll
 
 ---
 
 5. Menurut lu, apa perbedaan utama aplikasi Electron dengan website yang dibuka menggunakan Chrome?
-
-**Jawaban:**
+**Jawaban:** menurutku lebih ke bagian tingkat akses ke komputer langsung, kalo web aksesnya terbatas hanya seperti kamera, mic, localstorage. sedangkan electron dapat read/write file ke harddisk secara bebas, modifikasi sistem file, dan mengakses notifikasi
 
 ---
 
