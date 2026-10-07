@@ -116,8 +116,7 @@ app.whenReady().then(() => {
 ---
 
 14. Apa fungsi `createWindow()` pada kode tersebut?
-
-**Jawaban:**
+**Jawaban:** function createWindow() berfungsi untuk membuat/memunculkan window pertama saat aplikasi dijalankan
 
 ---
 
