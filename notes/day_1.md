@@ -121,15 +121,13 @@ app.whenReady().then(() => {
 ---
 
 15. Apa yang terjadi ketika kode berikut dijalankan?
-
-```js
-new BrowserWindow({
-    width: 800,
-    height: 600
-});
-```
-
-**Jawaban:**
+    ```js
+    new BrowserWindow({
+        width: 800,
+        height: 600
+    });
+    ```
+    **Jawaban:** akan membuat BrowserWindow berukuran 800x600 px. disimpan dalam const win
 
 ---
 
@@ -145,35 +143,30 @@ const win = new BrowserWindow({
 ```
 
 16. Apa arti `width: 800`?
-
-**Jawaban:**
+**Jawaban:** lebar jendela adalah 800 px, x axis.
 
 ---
 
 17. Apa arti `height: 600`?
-
-**Jawaban:**
+**Jawaban:** tinggi jendela adalah 600 px, y axis.
 
 ---
 
-18. Coba ubah window menjadi ukuran:
+18. Coba ubah window menjadi ukuran: `1200 × 800`
+    Tuliskan kode JavaScript-nya.
 
-```text
-1200 × 800
-```
-
-Tuliskan kode JavaScript-nya.
-
-**Jawaban:**
-
-```js
-```
-
+    **Jawaban:**
+    ```js
+    new BrowserWindow({
+      width: 1200,
+      height: 800
+    })
+    ```
+    
 ---
 
 19. Menurut lu, kenapa Electron menggunakan `BrowserWindow` untuk membuat aplikasi desktop?
-
-**Jawaban:**
+**Jawaban:** karena modul ini bisa membuat teknologi web seperti html, css, js dapat berjalan di dalam bentuk desktop app.
 
 ---
 
@@ -186,35 +179,26 @@ win.loadFile("index.html");
 ```
 
 20. Apa fungsi `loadFile()`?
-
-**Jawaban:**
+**Jawaban:** function loadFile() memanggil file output lokal dalam format html untuk ditampilkan di aplikasi 
 
 ---
 
 21. File apa yang akan ditampilkan oleh kode tersebut?
-
-**Jawaban:**
+**Jawaban:** index.html
 
 ---
 
-22. Jika file HTML bernama:
-
-```text
-home.html
-```
-
-bagaimana cara mengubah kode agar Electron menampilkan file tersebut?
-
-**Jawaban:**
-
-```js
-```
+22. Jika file HTML bernama `home.html`
+    bagaimana cara mengubah kode agar Electron menampilkan file tersebut?
+**Jawaban:** tinggal mengubah parameter didalam function loadFile() sesuai dengan file yang dituju
+    ```js
+    win.loadFile("home.html")
+    ```
 
 ---
 
 23. Apakah `index.html` merupakan Main Process atau Renderer?
-
-**Jawaban:**
+**Jawaban:** index.html bukan merupakan main process, tetapi dia adalah renderer. fungsinya untuk menampilkan interface ke aplikasi mirip web biasa.
 
 ---
 
