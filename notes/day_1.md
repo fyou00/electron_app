@@ -47,31 +47,27 @@ electron-hello-world/
 ```
 
 6. Apa fungsi `package.json`?
-**Jawaban:** setau ku package json itu kayak ktp suatu project, jadi fungsinya itu sebagai file konfigurasi project yang berisi informasi metadata, script, serta mengatur dependensi atau daftar library yang dibutuhkan untuk aplikasi. sama hal nya kayak pubspec.yaml di flutter
+**Jawaban:** setau ku package json itu kayak ktp suatu project, jadi fungsinya itu sebagai file konfigurasi project yang berisi informasi metadata, script, serta mengatur dependensi atau daftar library yang dibutuhkan untuk aplikasi. sama hal nya kayak pubspec.yaml di flutter.
 
 ---
 
 7. Apa fungsi `node_modules`?
-
-**Jawaban:**
+**Jawaban:** direktori atau folder templat menyimpan semua library, dependencies, packages, yang di unduh melalui npm (package manager). contoh npm install vite, maka vite akan tersimpan dalam node_modules.
 
 ---
 
 8. Apa fungsi `package-lock.json`?
-
-**Jawaban:**
+**Jawaban:**  file yang otomatis dibuat saat menginstall dependencies node js, sebagai catatan snapshot versi spesifik paket yang di install.
 
 ---
 
 9. File apa yang menjadi entry point aplikasi Electron jika `package.json` berisi:
-
-```json
-{
-    "main": "main.js"
-}
-```
-
-**Jawaban:**
+    ```json
+    {
+        "main": "main.js"
+    }
+    ```
+    **Jawaban:** yang akan menjadi entry point aplikasi electron adalah file yang menjadi value dari key "main". pada contoh diatas maka file main.js adalah entry point nya. 
 
 ---
 
@@ -97,30 +93,25 @@ app.whenReady().then(() => {
 ```
 
 10. Apa yang dimaksud dengan **Main Process**?
-
-**Jawaban:**
+**Jawaban:** kode utama yang berfungsi sebagai entry point untuk seluruh aplikasi. kode/file ini adalah yang pertama dijalankan saat aplikasi dibuka.
 
 ---
 
 11. Apa fungsi `app`?
-
-**Jawaban:**
+**Jawaban:** mengontrol event lifecycle dari aplikasi. contohnya seperti saat aplikasi siap app.whenReady(), ketika window ditutup, atau saat aplikasi keluar app.Quit(). bisa dibilang juga yang mengurus sistem secara keseluruhan mulai dari buka sampai tutup aplikasi. 
 
 ---
 
 12. Apa fungsi `BrowserWindow`?
-
-**Jawaban:**
+**Jawaban:** untuk membuat, menampilkan, kelola window/jendela aplikasi.
 
 ---
 
 13. Apa yang dilakukan kode berikut?
-
-```js
-const { app, BrowserWindow } = require("electron");
-```
-
-**Jawaban:**
+    ```js
+    const { app, BrowserWindow } = require("electron");
+    ```
+    **Jawaban:** kode tersebut melakukan import module app dan BrowserWindow
 
 ---
 
@@ -439,12 +430,12 @@ my-electron-app/
 
 Setelah selesai, kasih tanda:
 
-* [ ] Gw tahu apa itu Electron.
-* [ ] Gw tahu fungsi Chromium dalam Electron.
-* [ ] Gw tahu fungsi Node.js dalam Electron.
-* [ ] Gw tahu apa itu Main Process.
-* [ ] Gw tahu fungsi `app`.
-* [ ] Gw tahu fungsi `BrowserWindow`.
+* [x] Gw tahu apa itu Electron.
+* [x] Gw tahu fungsi Chromium dalam Electron.
+* [x] Gw tahu fungsi Node.js dalam Electron.
+* [x] Gw tahu apa itu Main Process.
+* [x] Gw tahu fungsi `app`.
+* [x] Gw tahu fungsi `BrowserWindow`.
 * [ ] Gw tahu fungsi `loadFile()`.
 * [ ] Gw tahu fungsi `app.whenReady()`.
 * [ ] Gw bisa membuat window Electron sendiri.
@@ -489,6 +480,7 @@ Tulis hal yang masih bikin bingung:
 Tulis konsep yang baru lu pahami hari ini:
 
 ```text
+Electron mengikuti konvensi JavaScript yang umum dalam hal ini, di mana modul dengan notasi PascalCase merupakan konstruktor kelas yang dapat diinstansiasi (misalnya `BrowserWindow`, `Tray`, `Notification`), sedangkan modul dengan notasi camelCase tidak dapat diinstansiasi (misalnya `app`, `ipcRenderer`, `webContents`).
 ```
 
 Tulis pertanyaan yang muncul setelah latihan:
