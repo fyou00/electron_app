@@ -152,8 +152,7 @@ const win = new BrowserWindow({
 
 ---
 
-18. Coba ubah window menjadi ukuran: `1200 × 800`
-    Tuliskan kode JavaScript-nya.
+18. Coba ubah window menjadi ukuran: `1200 × 800`. Tuliskan kode JavaScript-nya.
 
     **Jawaban:**
     ```js
