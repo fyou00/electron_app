@@ -189,7 +189,7 @@ win.loadFile("index.html");
 
 22. Jika file HTML bernama `home.html`
     bagaimana cara mengubah kode agar Electron menampilkan file tersebut?
-**Jawaban:** tinggal mengubah parameter didalam function loadFile() sesuai dengan file yang dituju
+**Jawaban:** tinggal mengubah parameter di dalam function loadFile() sesuai dengan file yang dituju
     ```js
     win.loadFile("home.html")
     ```
@@ -345,7 +345,7 @@ Jawab menggunakan bahasa lu sendiri.
 ---
 
 30. Apakah Electron bisa menggunakan HTML dan CSS?
-**Jawaban:** bisa
+**Jawaban:** jelas bisa
 
 ---
 
@@ -360,8 +360,7 @@ Jawab menggunakan bahasa lu sendiri.
 ---
 
 33. Kalau website biasa berjalan di browser, sedangkan Electron berjalan sebagai aplikasi desktop, menurut lu bagaimana Electron bisa menampilkan HTML?
-
-**Jawaban:**
+**Jawaban:** dengan kerja sama chromium dan node js. chromium lah yang berperan dalam menampilkan html ke jendela aplikasi, sedangkan node js untuk mengelola proses (akses sistem operasi)
 
 ---
 
@@ -414,7 +413,7 @@ Setelah selesai, kasih tanda:
 * [x] Gw tahu apa itu Main Process.
 * [x] Gw tahu fungsi `app`.
 * [x] Gw tahu fungsi `BrowserWindow`.
-* [ ] Gw tahu fungsi `loadFile()`.
+* [x] Gw tahu fungsi `loadFile()`.
 * [ ] Gw tahu fungsi `app.whenReady()`.
 * [ ] Gw bisa membuat window Electron sendiri.
 * [ ] Gw bisa menampilkan HTML dari Electron.
