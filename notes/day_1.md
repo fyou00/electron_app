@@ -339,31 +339,27 @@ Ubah teks HTML menjadi sesuatu yang lu mau.
 
 Jawab menggunakan bahasa lu sendiri.
 
-#### 29. Apakah Electron termasuk framework JavaScript?
+29. Apakah Electron termasuk framework JavaScript?
+**Jawaban:** iya, electron adalah framework javascript untuk membangun aplikasi desktop cross platform meggunakan teknologi web (html, css, js)
 
+---
+
+30. Apakah Electron bisa menggunakan HTML dan CSS?
+**Jawaban:** bisa
+
+---
+
+31. Apakah Electron hanya bisa membuat aplikasi untuk Windows?
+**Jawaban:** tidak, electron bisa juga untuk macos dengan flag --platform=darwin dan juga untuk linux dengan flag --platform=linux. windows --platform=win32
+
+---
+
+32. Apa hubungan antara JavaScript, Node.js, Chromium, dan Electron?
 **Jawaban:**
 
 ---
 
-#### 30. Apakah Electron bisa menggunakan HTML dan CSS?
-
-**Jawaban:**
-
----
-
-#### 31. Apakah Electron hanya bisa membuat aplikasi untuk Windows?
-
-**Jawaban:**
-
----
-
-#### 32. Apa hubungan antara JavaScript, Node.js, Chromium, dan Electron?
-
-**Jawaban:**
-
----
-
-#### 33. Kalau website biasa berjalan di browser, sedangkan Electron berjalan sebagai aplikasi desktop, menurut lu bagaimana Electron bisa menampilkan HTML?
+33. Kalau website biasa berjalan di browser, sedangkan Electron berjalan sebagai aplikasi desktop, menurut lu bagaimana Electron bisa menampilkan HTML?
 
 **Jawaban:**
 
